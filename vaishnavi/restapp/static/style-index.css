@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f06f6f; 
+    background-color: #fd8585;
+    text-align: center;
+    overflow-x: hidden; 
+}
+
+header {
+  
+    height: 10vh; 
+    background-color: #b2d6da;
+    padding: 1vh 0; 
+    color: #9fd9e1;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.5em; 
+    margin: 0;
+    color: #ffd700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em; 
+    padding: 0;
+}
+
+
+.hero-section {
+   
+    height: 55vh; 
+    
+   
+    background: url(Background1.jpg)no-repeat center center/cover;
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.hero-content {
+  
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 3vh 5vw; 
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0; 
+}
+
+.hero-content h2 {
+    color: #e2d06a;
+    font-size: 2.5em; 
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.hero-content p.offer {
+    color: #edaf98; 
+    font-weight: bold;
+    font-size: 1.2em; 
+}
+
+.info-cards {
+    
+    height: 25vh; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+    padding: 0 10px; 
+    background-color: #ffffff; 
+    color: #333; 
+}
+
+.card {
+    background-color: #ffffff; 
+    border: 1px solid #ccc;
+    height: 85%; 
+    padding: 10px; 
+    width: 30%;
+    max-width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h3 {
+    color: #8ed6df;
+    margin-top: 0;
+    border-bottom: 2px solid #ff4500;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    font-size: 1em; 
+}
+
+.card p {
+    font-size: 0.8em; 
+    color: #dc65aa;
+}
+
+.card a {
+    color: #eaa3f0;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
+
+footer {
+   
+    height: 10vh; 
+    background-color: #333;
+    color: #ccc;
+    font-size: 0.9em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
